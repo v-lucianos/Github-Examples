@@ -15,10 +15,11 @@ on:
         description: 'Base64 encoded content of a file'
         required: false
         type: string
+        default: 'SGVsbG8sIHdvcmxkIQ=='
       message:
         description: 'The message to echo'     
         required: false
-        default: 'Hello, world!'  
+        default: 'Hello, echo world!'  
 
 jobs:
   greet:
