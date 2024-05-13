@@ -41,7 +41,6 @@ jobs:
       - name: Print the message
         run: echo "${{ github.event.inputs.message }}"
 
-        name: Manual workflow
 #print      
   print:
     runs-on: ubuntu-latest
